@@ -33,9 +33,3 @@ export default class SettingsUser {
     return new Map([...this.defaultSettings, ...this.userSetting]);
   }
 }
-
-const user = new SettingsUser;
-
-user.set('bobik', 'light');
-user.set('difficulty', 'hard')
-console.log(user.getSettings());
