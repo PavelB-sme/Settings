@@ -1,4 +1,5 @@
-import SettingsUser from "../setting";
+/* eslint-disable no-undef */
+import SettingsUser from '../setting';
 
 describe('Calss SettingsUser', () => {
   let settingUser;
